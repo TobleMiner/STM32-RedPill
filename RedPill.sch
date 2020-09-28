@@ -1723,14 +1723,25 @@ F 3 "~" H 600 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H3
 U 1 1 604E4F2A
 P 600 7250
-F 0 "H?" H 700 7296 50  0000 L CNN
+F 0 "H3" H 700 7296 50  0000 L CNN
 F 1 "Icon" H 700 7205 50  0000 L CNN
 F 2 "Icon:pill" H 600 7250 50  0001 C CNN
 F 3 "~" H 600 7250 50  0001 C CNN
 	1    600  7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 604EC694
+P 600 7050
+F 0 "H?" H 700 7096 50  0000 L CNN
+F 1 "OSHW" H 700 7005 50  0000 L CNN
+F 2 "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen" H 600 7050 50  0001 C CNN
+F 3 "~" H 600 7050 50  0001 C CNN
+	1    600  7050
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
