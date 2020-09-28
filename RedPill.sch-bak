@@ -1669,10 +1669,10 @@ Connection ~ 1650 1400
 Wire Wire Line
 	1650 1400 1650 1450
 $Comp
-L Device:C C?
+L Device:C C16
 U 1 1 604670F9
 P 4750 2400
-F 0 "C?" V 5002 2400 50  0000 C CNN
+F 0 "C16" V 5002 2400 50  0000 C CNN
 F 1 "100nF" V 4911 2400 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4788 2250 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 4750 2400 50  0001 C CNN
@@ -1681,10 +1681,10 @@ F 4 "C1525" H 4750 2400 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0134
 U 1 1 604670FF
 P 4500 2450
-F 0 "#PWR?" H 4500 2200 50  0001 C CNN
+F 0 "#PWR0134" H 4500 2200 50  0001 C CNN
 F 1 "GND" H 4505 2277 50  0000 C CNN
 F 2 "" H 4500 2450 50  0001 C CNN
 F 3 "" H 4500 2450 50  0001 C CNN
@@ -1700,4 +1700,26 @@ Wire Wire Line
 Connection ~ 4950 2400
 Wire Wire Line
 	4950 2400 4950 2100
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 604A4294
+P 600 7650
+F 0 "H?" H 700 7696 50  0000 L CNN
+F 1 "ToolingHole" H 700 7605 50  0000 L CNN
+F 2 "ToolingHole:ToolingHole_JLCSMT" H 600 7650 50  0001 C CNN
+F 3 "~" H 600 7650 50  0001 C CNN
+	1    600  7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 604A4906
+P 600 7450
+F 0 "H?" H 700 7496 50  0000 L CNN
+F 1 "ToolingHole" H 700 7405 50  0000 L CNN
+F 2 "ToolingHole:ToolingHole_JLCSMT" H 600 7450 50  0001 C CNN
+F 3 "~" H 600 7450 50  0001 C CNN
+	1    600  7450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

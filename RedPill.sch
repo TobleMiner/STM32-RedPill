@@ -1701,10 +1701,10 @@ Connection ~ 4950 2400
 Wire Wire Line
 	4950 2400 4950 2100
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H2
 U 1 1 604A4294
 P 600 7650
-F 0 "H?" H 700 7696 50  0000 L CNN
+F 0 "H2" H 700 7696 50  0000 L CNN
 F 1 "ToolingHole" H 700 7605 50  0000 L CNN
 F 2 "ToolingHole:ToolingHole_JLCSMT" H 600 7650 50  0001 C CNN
 F 3 "~" H 600 7650 50  0001 C CNN
@@ -1712,14 +1712,25 @@ F 3 "~" H 600 7650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H1
 U 1 1 604A4906
 P 600 7450
-F 0 "H?" H 700 7496 50  0000 L CNN
+F 0 "H1" H 700 7496 50  0000 L CNN
 F 1 "ToolingHole" H 700 7405 50  0000 L CNN
 F 2 "ToolingHole:ToolingHole_JLCSMT" H 600 7450 50  0001 C CNN
 F 3 "~" H 600 7450 50  0001 C CNN
 	1    600  7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 604E4F2A
+P 600 7250
+F 0 "H?" H 700 7296 50  0000 L CNN
+F 1 "Icon" H 700 7205 50  0000 L CNN
+F 2 "Icon:pill" H 600 7250 50  0001 C CNN
+F 3 "~" H 600 7250 50  0001 C CNN
+	1    600  7250
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
