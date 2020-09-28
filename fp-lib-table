@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name XKB_switch)(type KiCad)(uri ${KIPRJMOD}/lib/XKB_switch.pretty)(options "")(descr ""))
+  (lib (name Connector_Card_MicroSD)(type KiCad)(uri ${KIPRJMOD}/lib/Connector_Card_MicroSD.pretty)(options "")(descr ""))
+)
