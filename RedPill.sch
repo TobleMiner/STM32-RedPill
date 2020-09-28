@@ -557,6 +557,7 @@ F 0 "J3" H 1107 2317 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 1107 2226 50  0000 C CNN
 F 2 "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G" H 1150 1450 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1150 1450 50  0001 C CNN
+F 4 "C167321" H 1000 1450 50  0001 C CNN "LCSC"
 	1    1000 1450
 	1    0    0    -1  
 $EndComp
@@ -1356,6 +1357,7 @@ F 0 "J6" H 9300 5567 50  0000 C CNN
 F 1 "Micro_SD_Card" H 9300 5476 50  0000 C CNN
 F 2 "Connector_Card_MicroSD:XUNPU_TF.104" H 10500 5150 50  0001 C CNN
 F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 9350 4850 50  0001 C CNN
+F 4 "C266612" H 9350 4850 50  0001 C CNN "LCSC"
 	1    9350 4850
 	1    0    0    -1  
 $EndComp
@@ -1734,10 +1736,10 @@ F 3 "~" H 600 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H4
 U 1 1 604EC694
 P 600 7050
-F 0 "H?" H 700 7096 50  0000 L CNN
+F 0 "H4" H 700 7096 50  0000 L CNN
 F 1 "OSHW" H 700 7005 50  0000 L CNN
 F 2 "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen" H 600 7050 50  0001 C CNN
 F 3 "~" H 600 7050 50  0001 C CNN

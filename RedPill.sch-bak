@@ -1356,6 +1356,7 @@ F 0 "J6" H 9300 5567 50  0000 C CNN
 F 1 "Micro_SD_Card" H 9300 5476 50  0000 C CNN
 F 2 "Connector_Card_MicroSD:XUNPU_TF.104" H 10500 5150 50  0001 C CNN
 F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 9350 4850 50  0001 C CNN
+F 4 "C266612" H 9350 4850 50  0001 C CNN "LCSC"
 	1    9350 4850
 	1    0    0    -1  
 $EndComp
@@ -1723,14 +1724,25 @@ F 3 "~" H 600 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H3
 U 1 1 604E4F2A
 P 600 7250
-F 0 "H?" H 700 7296 50  0000 L CNN
+F 0 "H3" H 700 7296 50  0000 L CNN
 F 1 "Icon" H 700 7205 50  0000 L CNN
 F 2 "Icon:pill" H 600 7250 50  0001 C CNN
 F 3 "~" H 600 7250 50  0001 C CNN
 	1    600  7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 604EC694
+P 600 7050
+F 0 "H4" H 700 7096 50  0000 L CNN
+F 1 "OSHW" H 700 7005 50  0000 L CNN
+F 2 "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen" H 600 7050 50  0001 C CNN
+F 3 "~" H 600 7050 50  0001 C CNN
+	1    600  7050
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
