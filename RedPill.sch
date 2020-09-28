@@ -575,13 +575,9 @@ $EndComp
 Wire Wire Line
 	1600 1350 1650 1350
 Wire Wire Line
-	1650 1350 1650 1400
-Wire Wire Line
 	1650 1450 1600 1450
 Wire Wire Line
 	1600 1550 1650 1550
-Wire Wire Line
-	1650 1550 1650 1600
 Wire Wire Line
 	1650 1650 1600 1650
 $Comp
@@ -644,16 +640,6 @@ Wire Wire Line
 Connection ~ 2050 1100
 Wire Wire Line
 	2050 1100 2050 1200
-Wire Wire Line
-	2250 1400 1650 1400
-Connection ~ 1650 1400
-Wire Wire Line
-	1650 1400 1650 1450
-Wire Wire Line
-	2250 1600 1650 1600
-Connection ~ 1650 1600
-Wire Wire Line
-	1650 1600 1650 1650
 NoConn ~ 1600 1950
 NoConn ~ 1600 2050
 Wire Wire Line
@@ -699,7 +685,7 @@ NoConn ~ 3250 1400
 NoConn ~ 3250 1600
 Text Label 1950 1400 0    50   ~ 0
 D-
-Text Label 1950 1600 0    50   ~ 0
+Text Label 1750 1600 0    50   ~ 0
 D+
 $Comp
 L Device:C C9
@@ -1106,7 +1092,7 @@ Wire Wire Line
 Wire Wire Line
 	5100 3250 4950 3250
 Wire Wire Line
-	4950 3250 4950 2100
+	4950 3250 4950 2400
 $Comp
 L power:+3V3 #PWR0120
 U 1 1 5FB241BB
@@ -1656,4 +1642,62 @@ Wire Wire Line
 	3200 4850 3200 6000
 Wire Wire Line
 	2150 4550 5100 4550
+Wire Wire Line
+	1650 1350 1650 1400
+Wire Wire Line
+	1650 1550 1650 1600
+Wire Wire Line
+	1650 1600 2100 1600
+Wire Wire Line
+	2100 1600 2100 1400
+Wire Wire Line
+	2100 1400 2250 1400
+Connection ~ 1650 1600
+Wire Wire Line
+	1650 1600 1650 1650
+Wire Wire Line
+	1650 1400 2050 1400
+Wire Wire Line
+	2050 1400 2050 1500
+Wire Wire Line
+	2050 1500 2150 1500
+Wire Wire Line
+	2150 1500 2150 1600
+Wire Wire Line
+	2150 1600 2250 1600
+Connection ~ 1650 1400
+Wire Wire Line
+	1650 1400 1650 1450
+$Comp
+L Device:C C?
+U 1 1 604670F9
+P 4750 2400
+F 0 "C?" V 5002 2400 50  0000 C CNN
+F 1 "100nF" V 4911 2400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4788 2250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 4750 2400 50  0001 C CNN
+F 4 "C1525" H 4750 2400 50  0001 C CNN "LCSC"
+	1    4750 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 604670FF
+P 4500 2450
+F 0 "#PWR?" H 4500 2200 50  0001 C CNN
+F 1 "GND" H 4505 2277 50  0000 C CNN
+F 2 "" H 4500 2450 50  0001 C CNN
+F 3 "" H 4500 2450 50  0001 C CNN
+	1    4500 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2450 4500 2400
+Wire Wire Line
+	4600 2400 4500 2400
+Wire Wire Line
+	4900 2400 4950 2400
+Connection ~ 4950 2400
+Wire Wire Line
+	4950 2400 4950 2100
 $EndSCHEMATC

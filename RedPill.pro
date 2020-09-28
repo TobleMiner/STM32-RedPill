@@ -1,4 +1,4 @@
-update=Mo 28 Sep 2020 21:14:41 CEST
+update=Mo 28 Sep 2020 22:00:51 CEST
 version=1
 last_client=kicad
 [general]
@@ -40,8 +40,8 @@ ViaDiameter2=0.45
 ViaDrill2=0.2
 ViaDiameter3=0.6
 ViaDrill3=0.3
-dPairWidth1=0.2
-dPairGap1=0.25
+dPairWidth1=0.09
+dPairGap1=0.32
 dPairViaGap1=0.25
 SilkLineWidth=0.12
 SilkTextSizeV=1
@@ -242,8 +242,8 @@ ViaDiameter=0.45
 ViaDrill=0.2
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.25
+dPairWidth=0.09
+dPairGap=0.32
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=Power

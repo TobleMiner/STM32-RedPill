@@ -575,13 +575,9 @@ $EndComp
 Wire Wire Line
 	1600 1350 1650 1350
 Wire Wire Line
-	1650 1350 1650 1400
-Wire Wire Line
 	1650 1450 1600 1450
 Wire Wire Line
 	1600 1550 1650 1550
-Wire Wire Line
-	1650 1550 1650 1600
 Wire Wire Line
 	1650 1650 1600 1650
 $Comp
@@ -644,16 +640,6 @@ Wire Wire Line
 Connection ~ 2050 1100
 Wire Wire Line
 	2050 1100 2050 1200
-Wire Wire Line
-	2250 1400 1650 1400
-Connection ~ 1650 1400
-Wire Wire Line
-	1650 1400 1650 1450
-Wire Wire Line
-	2250 1600 1650 1600
-Connection ~ 1650 1600
-Wire Wire Line
-	1650 1600 1650 1650
 NoConn ~ 1600 1950
 NoConn ~ 1600 2050
 Wire Wire Line
@@ -699,7 +685,7 @@ NoConn ~ 3250 1400
 NoConn ~ 3250 1600
 Text Label 1950 1400 0    50   ~ 0
 D-
-Text Label 1950 1600 0    50   ~ 0
+Text Label 1750 1600 0    50   ~ 0
 D+
 $Comp
 L Device:C C9
@@ -1487,13 +1473,13 @@ Wire Wire Line
 $Comp
 L Device:LED D7
 U 1 1 60269337
-P 3200 6500
-F 0 "D7" V 3239 6382 50  0000 R CNN
-F 1 "GRN" V 3148 6382 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 3200 6500 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" H 3200 6500 50  0001 C CNN
-F 4 "C72043" V 3200 6500 50  0001 C CNN "LCSC"
-	1    3200 6500
+P 2850 6500
+F 0 "D7" V 2889 6382 50  0000 R CNN
+F 1 "GRN" V 2798 6382 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 2850 6500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" H 2850 6500 50  0001 C CNN
+F 4 "C72043" V 2850 6500 50  0001 C CNN "LCSC"
+	1    2850 6500
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1526,13 +1512,13 @@ Wire Wire Line
 $Comp
 L Device:LED D6
 U 1 1 6027FA0D
-P 2850 6500
-F 0 "D6" V 2889 6382 50  0000 R CNN
-F 1 "BLU" V 2798 6382 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 2850 6500 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-19-217-BHC-ZL1M2RY-3T_C72041.pdf" H 2850 6500 50  0001 C CNN
-F 4 "C72041" V 2850 6500 50  0001 C CNN "LCSC"
-	1    2850 6500
+P 3200 6500
+F 0 "D6" V 3239 6382 50  0000 R CNN
+F 1 "BLU" V 3148 6382 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 3200 6500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-19-217-BHC-ZL1M2RY-3T_C72041.pdf" H 3200 6500 50  0001 C CNN
+F 4 "C72041" V 3200 6500 50  0001 C CNN "LCSC"
+	1    3200 6500
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1656,4 +1642,30 @@ Wire Wire Line
 	3200 4850 3200 6000
 Wire Wire Line
 	2150 4550 5100 4550
+Wire Wire Line
+	1650 1350 1650 1400
+Wire Wire Line
+	1650 1550 1650 1600
+Wire Wire Line
+	1650 1600 2100 1600
+Wire Wire Line
+	2100 1600 2100 1400
+Wire Wire Line
+	2100 1400 2250 1400
+Connection ~ 1650 1600
+Wire Wire Line
+	1650 1600 1650 1650
+Wire Wire Line
+	1650 1400 2050 1400
+Wire Wire Line
+	2050 1400 2050 1500
+Wire Wire Line
+	2050 1500 2150 1500
+Wire Wire Line
+	2150 1500 2150 1600
+Wire Wire Line
+	2150 1600 2250 1600
+Connection ~ 1650 1400
+Wire Wire Line
+	1650 1400 1650 1450
 $EndSCHEMATC
